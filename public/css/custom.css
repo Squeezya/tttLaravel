@@ -1,0 +1,27 @@
+.largeMessage{
+	font-size: 200%;
+	color: green;
+}
+
+.smallMessage{
+	font-size: 100%;
+	color: darkgray;
+}
+
+#board{
+	width: 364px;
+	border-style: solid;
+	border-width: 1px 0 0 1px;
+	border-color: black;
+}
+#board div{
+	display: inline-block;
+	border-style: solid;
+	border-width: 0 1px 1px 0;
+	border-color: black;
+}
+
+#board img{
+	width: 120px;
+	height: 120px;
+}
